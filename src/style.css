@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+button {
+  margin-right: 20px;
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
+  padding: 10px 15px;
+  background-color: white;
+  align-self: flex-end;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ControlList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.PlayerList {
+  border: black solid 4px;
+  width: 40%;
+}
+
+.SinglePlayer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.PlayerList > .SinglePlayer:nth-child(even) {
+  background: rgb(192, 192, 192);
+}
+
+.title-sm {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+  margin-bottom: 20px;
+}
