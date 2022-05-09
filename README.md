@@ -3,7 +3,7 @@
 # Leadboard App
 
 > Leadboard App using API
-
+![image-preview](https://github.com/ichala/Leadboard-API/blob/features/ss.png?raw=true)
 ## Built With
 
 - HTML5
@@ -30,9 +30,6 @@ Web Browser (Chrome,Safari,Mozilla,Edge)
 npm run build
 
 
-### Deployment
-
-Deployement will come soon as the project finish.
 
 ## Authors
 

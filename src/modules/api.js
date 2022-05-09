@@ -2,7 +2,7 @@ import DisplayData from './display.js';
 
 export default class Api {
   constructor() {
-    this.GameId = 'lmgRAXyty39emwdkEisa';
+    this.GameId = 'b6xgJQ2NVhNs7skbH55b';
     this.ApiEndPoint = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${this.GameId}/scores/`;
   }
 
@@ -27,7 +27,7 @@ export default class Api {
 
       GetPlayers = async () => {
         const PlayerList = document.querySelector('.PlayerList');
-        PlayerList.innerHTML = '<i class="fas fa-spinner fa-pulse"></i>';
+        PlayerList.innerHTML = '<i class="fas fa-spinner fa-pulse text-center"></i>';
         await fetch(this.ApiEndPoint, {
           method: 'Get',
           headers: {

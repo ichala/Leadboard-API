@@ -13,11 +13,11 @@ export default class Dom {
       });
       const name = document.querySelector('#name');
       name.addEventListener('focus', () => {
-        document.querySelector('.message').innerText = '';
+        document.querySelector('.message').innerText = 'Waiting to submit ..';
       });
       const score = document.querySelector('#score');
       score.addEventListener('focus', () => {
-        document.querySelector('.message').innerText = '';
+        document.querySelector('.message').innerText = 'Waiting to submit ..';
       });
       const SubmitBtn = document.querySelector('.ControlList');
       SubmitBtn.addEventListener('submit', (e) => {
