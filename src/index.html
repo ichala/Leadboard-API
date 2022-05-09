@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <title>Leadboard Api</title>
 </head>
-<body> 
-    <div class="header"><h1>Leadboard Api</h1></div>
-   <div class="title-sm"> <h2>Recent Scores</h2> <button id="refrech">Refrech</button></div>
-    <div class="container">
-        <ul class="PlayerList">
+<body class="bg-white"> 
+    <div class="text-amber-400 font-medium leading-tight text-5xl mt-0 mb-2 text-center"><h1>Leadboard Api</h1></div>
+   <div class="flex ml-7"> <h2 class="text-amber-400 font-medium leading-tight text-4xl mt-0 mb-2 ml-7">Recent Scores</h2> <button type="button" class=" ml-8 font-medium leading-tight text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" id="refrech">Refrech</button></div>
+    <div class="flex ml-7 space-x-10 ">
+        <ul class="PlayerList w-100 rounded overflow-hidden shadow-lg">
         </ul>
-        <form class="ControlList">
-            <h2>Add your score</h2>
-            <input required type="text" id="name" placeholder="Name"/>
-            <input type="number" min="0" max="99999" id="score" placeholder="Score (0 to 99999)"/>
-            <button type="submit">Save Score</button>
-            <div class="message"></div>
+        <form class="ControlList  bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <h2 class="text-amber-400 ">Add your score</h2>
+            
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required type="text" id="name" placeholder="Name"/>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" min="0" max="99999" id="score" placeholder="Score (0 to 99999)"/>
+            <button class="font-medium leading-tight text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" type="submit">Save Score</button>
+            <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800 message">Waiting to submit ..</div>
         </form>
     </div>
 </body>

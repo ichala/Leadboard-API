@@ -27,7 +27,7 @@ export default class Api {
 
       GetPlayers = async () => {
         const PlayerList = document.querySelector('.PlayerList');
-        PlayerList.innerHTML = '<i class="fas fa-spinner fa-pulse"></i>';
+        PlayerList.innerHTML = '<i class="fas fa-spinner fa-pulse text-center"></i>';
         await fetch(this.ApiEndPoint, {
           method: 'Get',
           headers: {
