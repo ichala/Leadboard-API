@@ -27,19 +27,12 @@ Web Browser (Chrome,Safari,Mozilla,Edge)
 
 ### Install
 
-No need to install. Open the index.html file with a browser.
+npm run build
 
-### Usage
-
-You can navigate through the navigation bar to see the different pages.
-
-### Run tests
-
-You can use npm test to run all the tests
 
 ### Deployment
 
-You can check the Github Pages link.
+Deployement will come soon as the project finish.
 
 ## Authors
 
@@ -60,7 +53,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Api used : [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 -Thank you to Microverse Inc.
 
 ## 📝 License

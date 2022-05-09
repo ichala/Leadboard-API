@@ -10,49 +10,17 @@
 </head>
 <body> 
     <div class="header"><h1>Leadboard Api</h1></div>
-   <div class="title-sm"> <h2>Recent Scores</h2> <button>Refrech</button></div>
+   <div class="title-sm"> <h2>Recent Scores</h2> <button id="refrech">Refrech</button></div>
     <div class="container">
         <ul class="PlayerList">
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-            <li class="SinglePlayer">
-                <h3>Name</h3>
-                <h4>Score</h4>
-            </li>
-    
         </ul>
-        <div class="ControlList">
+        <form class="ControlList">
             <h2>Add your score</h2>
-            <input type="text" placeholder="Name"/>
-            <input type="text" placeholder="Score"/>
-            <button>Save Score</button>
-        </div>
+            <input required type="text" id="name" placeholder="Name"/>
+            <input type="number" min="0" max="99999" id="score" placeholder="Score (0 to 99999)"/>
+            <button type="submit">Save Score</button>
+            <div class="message"></div>
+        </form>
     </div>
 </body>
 </html>
