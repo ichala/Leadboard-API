@@ -17,7 +17,7 @@
         <form class="ControlList">
             <h2>Add your score</h2>
             <input required type="text" id="name" placeholder="Name"/>
-            <input required type="text" id="score" placeholder="Score"/>
+            <input type="number" min="0" max="99999" id="score" placeholder="Score (0 to 99999)"/>
             <button type="submit">Save Score</button>
             <div class="message"></div>
         </form>
