@@ -37,20 +37,4 @@ export default class Api {
           .then((response) => response.json())
           .then((json) => { DisplayData(json.result); });
       }
-  // call this function to create a new game id
-  //   CreateGame = async () => {
-  //       if (!this.GameId) {
-  //         await  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
-  //             method: 'POST',
-  //             body: JSON.stringify({
-  //                 "name": "iChala Game"
-  //             }),
-  //             headers: {
-  //               'Content-type': 'application/json; charset=UTF-8',
-  //             },
-  //           })
-  //             .then((response) => {console.log(response); response.json()})
-  //             .then((json) => console.log(json)); //copy new id in this.GameId
-  //       }
-  // }
 }
