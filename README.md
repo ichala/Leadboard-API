@@ -1,56 +1,43 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leadboard App
 
-> Description the project.
-
-
+> Leadboard App using API
+![image-preview](https://github.com/ichala/Leadboard-API/blob/features/ss.png?raw=true)
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML5
+- CSS3
+- JavaScript
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
+1- Copy this link git@github.com:ichala/Leadboard-API.git <br>
+2- Get the directory that you want to clone the repository. <br>
+3- Open the command prompt in this directory. <br>
+4- Write git@github.com:ichala/Leadboard-API.git <br>
+5- Go to the repository folder in your command prompt cd Leadboard-API<br>
+6- Run npm install to install the dev dependencies for linters and node sass.
+6- Run npm start.
 ### Prerequisites
 
-### Setup
+Web Browser (Chrome,Safari,Mozilla,Edge)
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+npm run build
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ichala](https://github.com/ichala/)
+- LinkedIn: [alijendoubi](https://www.linkedin.com/in/alijendoubi/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -63,10 +50,8 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Api used : [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
+-Thank you to Microverse Inc.
 
 ## 📝 License
 
