@@ -1,6 +1,6 @@
 const DisplayData = (players) => {
   players = players.sort(function(a, b) {
-    return (a.score - b.score);
+    return (b.score - a.score);
 });
   const PlayerList = document.querySelector('.PlayerList');
   PlayerList.innerHTML = '';
