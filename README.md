@@ -4,6 +4,12 @@
 
 > Leadboard App using API
 ![image-preview](https://github.com/ichala/Leadboard-API/blob/features/ss.png?raw=true)
+
+
+## Live Demo
+
+[Live Link](https://chala.dev/Leadboard/)
+
 ## Built With
 
 - HTML5
